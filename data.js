@@ -615,7 +615,7 @@ window.APP_CONFIG = {
 
 // 同步端點設定（老師預先填好，學生即可免設定）
 window.APP_CONFIG.sync = {
-  defaultWebAppUrl: "",          // 貼上 Apps Script Web App 的 /exec 網址
+  defaultWebAppUrl: "https://script.google.com/macros/s/AKfycbxS6XF4rLUdATMJlVqIOOBlDbTC_WvHrHi01ZcaaFu2p4D-EZyR3Q8pvzQcKkz49Fk/exec",          // 貼上 Apps Script Web App 的 /exec 網址
   syncKey: "CHANGE_ME_2026"      // 必須與 Code.gs 的 SYNC_KEY 完全相同
 };
 
