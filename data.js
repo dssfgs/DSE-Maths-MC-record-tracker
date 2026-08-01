@@ -608,3 +608,21 @@ window.APP_CONFIG = {
 
   ]
 };
+/* ============================================================
+   將以下片段加到 data.js 檔案「最末端」（在原有內容之後）
+   對應共識 D-009 / D-010 / D-015
+   ============================================================ */
+
+// 同步端點設定（老師預先填好，學生即可免設定）
+window.APP_CONFIG.sync = {
+  defaultWebAppUrl: "",          // 貼上 Apps Script Web App 的 /exec 網址
+  syncKey: "CHANGE_ME_2026"      // 必須與 Code.gs 的 SYNC_KEY 完全相同
+};
+
+// 學生身分白名單（前後端須一致）
+window.APP_CONFIG.identity = {
+  formOptions:  ["Form 1","Form 2","Form 3","Form 4","Form 5","Form 6"],
+  classOptions: ["A","B","C","D","E","BCD1","BCD2","BCD3"],
+  classNoMin: 1,
+  classNoMax: 50
+};
